@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogC- Início</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <menu id="menuArea">
+        <i class="material-symbols-outlined" onclick="s_hMenu()">close</i>
+        <ul>
+            <li>Seu Perfil</li>
+            <li>Seguindo</li>
+        </ul>
+    </menu>
+    <header>
+        <i class="material-symbols-outlined" onclick="s_hMenu()">menu</i>
+        <h1>Blog C</h1>
+        <p>
+            Oi, veja tudo sobre os estudantes do terceiro do Francisco Lopes em um Blog
+        </p>
+    </header>
+    <nav>
+        <ul>
+            <li>Notícias</li>
+            <li>Posts</li>
+            <li>Sobre</li>
+        </ul>
+    </nav>
+    <main>
+        <section id="s1">
+            <h2>Sumário</h2>
+            <ol>
+                <li>Geral</li>
+                <li>Notícias</li>
+                <li>Posts</li>
+                <li>Artes</li>
+                <li>Sobre</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Geral</h2>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Chegou ao fim, espero que tenha se agradado com o blog
+        </p>
+    </footer>
+    <script>
+        function s_hMenu(){
+            if (menuArea.style.display == 'none'){
+                menuArea.style.display = 'block'
+            } else {
+                menuArea.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
