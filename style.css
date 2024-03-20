@@ -16,7 +16,7 @@ body{
 menu{
     padding: 20px;
     display: none;
-    height: 100%; width: 25%;
+    width: 40%; height: 100vh;
     position: fixed;
     background-color: white;
 }
@@ -31,7 +31,7 @@ nav{
 }
 main{
     background-color: white;
-    height: 100vh; width: 80vw;
+    width: 80vw;
     margin: auto;
 }
 footer{
@@ -42,7 +42,9 @@ footer{
 
 
 
-
+menu ul{
+    list-style-type: none;
+}
 header h1, p{
     text-align: center;
 }
@@ -58,6 +60,25 @@ nav ul{
 nav li{
     width: 96px;
 }
+section{
+    padding: 30px;
+}
+h1{
+    font-size: 3.5em;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+#menuArea a{
+    color: var(--CorFundo);
+}
+#navList a{
+    color: white;
+}
+a > i{
+    color: white;
+}
 i{
     cursor: pointer;
 }
@@ -67,11 +88,26 @@ i{
     background-image: url(images/tchau\ \(2\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px;
     color: white;
     z-index: 2;
 }
 #s1 ol{
     list-style: disc;
     columns: 2;
+}
+#s2{
+    color: var(--CorFundo);
+}
+#s2 div{
+    display: flex; align-items: flex-start;
+    columns: 1;
+}
+#s2 div > a{
+    width: 50%;
+}
+#imgG{
+    width: 100%;
+    border-radius: 20px;
+} #imgM{
+    width: 100%;
 }
